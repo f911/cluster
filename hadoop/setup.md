@@ -16,3 +16,13 @@ wget hadoop binary
 * yarn-site.xml
 * mapred-site.xml
 * hdfs-site.xml
+
+
+## add hdfs dir
+
+    $HADOOP_HOME/data/hdfs/namenode
+    $HADOOP_HOME/data/hdfs/datanode
+
+## create log file auto
+
+    $HADOOP_HOME/logs
